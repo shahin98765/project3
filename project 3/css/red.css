@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --maincolor:rgb(64, 218, 245);
+    --primarycolor:rgb(143, 213, 226);
+    --secondarycolor:rgb(191, 239, 248);
+    --lastcolor:rgb(154, 180, 184);
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.active a{
+    color: red;
+}
+.nav-link:hover{
+    color: red;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: var(--secondarycolor) !important;
+}
+.nav-icon{
+    width: 25px;
+    height: 25px;
+}
+.footerimg{
+    width: 60px;
+    height: 60px;
+    
+}
+
+#Banner{
+    height: 600px;
+    background:url(../img/4846-nature-backgrounds-images__nature-backgrounds-images.jpg);
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+/* #Banner .overlay {
+    background: rgba(0, 0, 0, 0.359);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(50%  -50%);
+} */
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+  .text2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: medium;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+  /* #Banner .button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    bottom: 50%;
+  } */
+
+  
+#About{
+    height: 500px;
+    background: var(--primarycolor);
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 600px;
+}
+#About h2{
+    padding-top: 100px;
+    
+    text-align: left;
+    /* column-count: 3;
+    column-gap: 10px;
+    scroll-behavior: smooth; */
+    
+}
+.all{
+    column-count: 3;
+    column-gap: 10px;
+    scroll-behavior: smooth; 
+    display: inline-block;
+}
+#About h3{
+    text-align: left;
+    font-size: medium;
+    padding-top: 10px;
+}
+
+
+#Service{
+    height: 700px;
+    background: var(--maincolor);
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 600px;
+}
+.servicetext{
+    font-size: medium;
+}
+#Blog{
+    height: 700px;
+    background: var(--primarycolor);
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 600px;
+}
+#Blog .blogtext{
+    font-size: medium;
+    padding-top: 25px;
+
+}
+.blogimg{
+    width: 500px;
+    height: 300px;
+    padding-top: 25px;
+}
+#Contact{
+    height: 700px;
+    background: var(--secondarycolor);
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 600px;
+    
+}
+.mapwrap{
+    width: 500px;
+    height: 350px;
+    border: none;
+    border-radius: 6px;
+    padding-top: 20px;
+
+}
+#Contact h2{
+    text-align: left;
+}
+.contact-text{
+    font-size: medium;
+    text-align: left;
+}
+#Contact .icon{
+    font-size: 35px;
+    column-gap: 5px;
+}
+.colorthem{
+    display: flex;
+    position: fixed;
+    left: -101px;
+    top: 50%;
+    column-gap: 20px;
+    border: 1px solid red;
+    padding: 15px;
+    background: mintcream;
+}
+.colore{
+    left: 0;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.palette{
+    color: mediumorchid;
+}
+
+
+
+
+/* <!-- ********Service part************ --> */
+#Service .row {
+    display: flex; 
+    justify-content: space-between;
+    /* background-color: #f2f2f2;  */
+    padding: 10px; 
+}
+/* #Service .column {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+} */
+#Service .service_img{
+    width: 200px;
+    height: 200px;
+}
+#Service .Service_text{
+    font-size: 12px;
+}
+.button{
+    width: 100px;
+    height: 15px;
+    padding: 20px;
+    font-size: 10px;
+    align-items: center;
+    border: none;
+    background: mintcream;
+    text-align: center;   
+}
+.footer{
+    background: var(--lastcolor);
+}
